@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ricardo" content="Creacion de formulario para login">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="horario.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Fichado</h2>
+        <hr>
+
+        <form action="destino.html" class="contenedor-inputs">
+            <fieldset class="trabajador">
+                <legend> Datos del Trabajador</legend>
+                    
+                <input type="email" id="correo" name="correo" placeholder="Correo" class="input-48" required>
+                <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="input-48" required>
+                <input type="password" id="clave" name="clave" placeholder="Contraseña" class="input-48" required>
+            </fieldset>
+
+            <fieldset class="horario">
+                <label>¿Entrada o salida?</label>
+                <br>
+                <input type="radio" id="entrada" name="horario" value="entrada">
+                <label for="entrada">Entrada</label>
+                <input type="radio" id="salida" name="horario" value="salida">
+                <label for="salida">Salida</label>
+            </fieldset>
+                   
+            
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> <a href="" target="_blank">Aceptar condiciones</a></label>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
