@@ -4,6 +4,66 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
+/* Nav */
+.nav-header {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 00px;
+}
+
+.imagen-logo {
+    padding-top: 3px;
+}
+
+.nav-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold
+}
+
+.nav-header ul li {
+    margin: 0 15px;
+}
+
+.nav-header ul li a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.nav-header ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.login {
+    font-weight: bold;
+    color: #7e7e7e;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    color: #5f5f7c
+}
+
+
 header {
     background: #007BFF;
     color: #fff;
